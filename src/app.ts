@@ -1,9 +1,11 @@
 import express from "express";
-const cors = require("cors");
+import * as bodyParser from "body-parser";
+import * as cors from "cors";
+import indexRouter from './routes/index';
 const app: express.Application = express();
 
-import indexRouter from './routes/index';
-app.use(cors());
+app.use(cors.default());
+app.use(bodyParser.json());
 app.use('/api', indexRouter);
 
 export default app;
