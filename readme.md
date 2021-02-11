@@ -6,7 +6,7 @@
   * nodejs
 
 
-### 클라이언트 주소 (client url)
+## 해당 웹 관련 서버 위치 (Git hub)
 
 https://github.com/Redhoneybee/happyhouse-client
 
